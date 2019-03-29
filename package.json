@@ -11,7 +11,7 @@
   "scripts": {
     "start": "webpack-dev-server --port 8080 --hot --host 0",
     "private-start": "webpack-dev-server",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Tim Bhison",
   "dependencies": {
