@@ -13,7 +13,12 @@ module.exports = {
     publicPath: '/'
   },
   module: {
-    rules: [{
+    rules: [
+      {
+        test:/\.(s*)css$/,
+        use:['style-loader','css-loader', 'sass-loader']
+      },
+      {
         test: /\.css$/,
         use: [{
             loader: MiniCssExtractPlugin.loader,
