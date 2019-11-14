@@ -1,22 +1,15 @@
 {
-  "name": "bhison-boilerplate",
+  "name": "-",
   "version": "1.0.0",
-  "description": "A stater for a webpack pnpm project. Change these details before use.",
+  "description": "-",
   "license": "UNLICENSED",
   "main": "app.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/bhison/boilerplate"
-  },
   "scripts": {
     "start": "webpack-dev-server --port 8080 --hot --host 0",
     "private-start": "webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Tim Bhison",
-  "dependencies": {
-    "express": "^4.16.4"
-  },
   "devDependencies": {
     "@babel/core": "^7.2.2",
     "@babel/preset-env": "^7.2.3",
@@ -28,9 +21,6 @@
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^3.2.0",
     "mini-css-extract-plugin": "^0.4.5",
-    "node-sass": "^4.12.0",
-    "pnpm": "^2.25.2",
-    "sass-loader": "^8.0.0",
     "style-loader": "^1.0.0",
     "webpack": "^4.28.4",
     "webpack-cli": "^3.2.1",
